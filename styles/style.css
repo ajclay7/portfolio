@@ -94,6 +94,10 @@ body {
 /* GENERAL COMPONENTS */
 /*************************/
 
+.container {
+  padding: 0 12.8rem;
+}
+
 .btn,
 .btn:link,
 .btn:visited {
@@ -226,8 +230,7 @@ body {
 }
 
 .icon-mobile-nav {
-  height: 4.8rem;
-  width: 4.8rem;
+  font-size: 4.4rem;
   color: #343a40;
 }
 
@@ -284,8 +287,7 @@ body {
   padding: 9.8rem 0;
 }
 
-.container-about {
-  padding: 0 12.8rem;
+.container--about {
   display: grid;
   grid-template-columns: 3fr 2fr;
   justify-items: center;
@@ -335,10 +337,6 @@ body {
   padding: 9.8rem 0;
   background-color: #212529;
   color: #212529;
-}
-
-.container-skills {
-  padding: 0 12.8rem;
 }
 
 .skills-title {
@@ -420,9 +418,7 @@ body {
   padding: 9.8rem 0;
 }
 
-.container-projects {
-  padding: 0 12.8rem;
-
+.container--projects {
   display: flex;
   flex-direction: column;
   gap: 8rem;
@@ -533,8 +529,7 @@ body {
   background-color: #212529;
 }
 
-.container-contact {
-  padding: 0 12.8rem;
+.container--contact {
   display: flex;
   flex-direction: column;
   gap: 6.2rem;
