@@ -26,7 +26,7 @@
 
   .project-logo {
     width: auto;
-    height: 7.6rem;
+    max-height: 5.6rem;
   }
 
   .about-img {
@@ -61,7 +61,7 @@
 
   .about-img {
     grid-row: 1;
-    height: 30rem;
+    max-height: 30rem;
   }
 
   .skills-cards {
@@ -153,15 +153,25 @@
     font-size: 3rem;
     text-align: center;
   }
+
+  .about-img {
+    height: auto;
+    max-width: 100%;
+  }
 }
 
 /*************************/
 /* BELOW 608px (Phones)*/
 /*************************/
 @media (max-width: 38em) {
+  .about-title::after {
+    display: none;
+  }
+
   .skills-cards {
     grid-template-columns: 1fr;
   }
+
   .skills-card:last-child {
     grid-column: 1 / -1;
     justify-self: normal;
