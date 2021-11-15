@@ -89,7 +89,8 @@
   }
 
   .main-nav {
-    background-color: #212529;
+    background-color: rgba(33, 37, 41, 0.8);
+    backdrop-filter: blur(10px);
     position: absolute;
     top: 0;
     left: 0;
@@ -189,10 +190,6 @@
   .skills-card:last-child {
     grid-column: 1 / -1;
     justify-self: normal;
-  }
-
-  .projects {
-    gap: 12.8rem;
   }
 
   .projects-description {
