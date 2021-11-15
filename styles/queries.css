@@ -191,6 +191,10 @@
     justify-self: normal;
   }
 
+  .projects {
+    gap: 12.8rem;
+  }
+
   .contact-link:link,
   .contact-link:visited {
     font-size: 3.4em;
