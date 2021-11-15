@@ -164,6 +164,10 @@
 /* BELOW 608px (Phones)*/
 /*************************/
 @media (max-width: 38em) {
+  .section-hero {
+    height: 80vh;
+  }
+
   .about-title::after {
     display: none;
   }
@@ -175,5 +179,10 @@
   .skills-card:last-child {
     grid-column: 1 / -1;
     justify-self: normal;
+  }
+
+  .contact-link:link,
+  .contact-link:visited {
+    font-size: 3.4em;
   }
 }
