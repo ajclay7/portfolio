@@ -164,6 +164,10 @@
 /* BELOW 608px (Phones)*/
 /*************************/
 @media (max-width: 38em) {
+  .header {
+    padding: 0 2.4rem;
+  }
+
   .section-hero {
     height: 80vh;
   }
